@@ -99,7 +99,8 @@ const IndexPage = () => {
             className: 'icon',
             html
           }),
-          riseOnHover: true
+          //riseOnHover: true
+          bubblingMouseEvents: true
         });
       }
     });
