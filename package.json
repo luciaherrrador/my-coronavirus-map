@@ -3,7 +3,7 @@
   "description": "A Gatsby starter with Leafet!",
   "version": "0.2.2",
   "author": "Colby Fayock <hello@colbyfayock.com>",
-  "homepage": "https://luciaherrrador.github.io/my-coronavirus-map",
+  "homepage": "./",
   "dependencies": {
     "axios": "^0.19.2",
     "gatsby": "^2.19.43",
@@ -47,7 +47,6 @@
   ],
   "license": "MIT",
   "scripts": {
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build",
     "clean": "gatsby clean",
     "develop": "gatsby develop",
